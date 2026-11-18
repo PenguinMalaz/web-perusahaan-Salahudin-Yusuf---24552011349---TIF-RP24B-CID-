@@ -16,9 +16,9 @@ Repository ini berisi gabungan **Project 1 (Frontend & Web Dinamis PHP + Bootstr
 
 ---
 
-Akun admin
-Username: admin
-Password: 12345
+**Akun admin**
+- Username: admin
+- Password: 12345
 
 ## Dokumentasi Project 1 (Tampilan Website)
 
