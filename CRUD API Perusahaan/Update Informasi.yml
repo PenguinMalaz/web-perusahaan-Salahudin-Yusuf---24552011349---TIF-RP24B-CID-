@@ -1,0 +1,31 @@
+info:
+  name: Update Informasi
+  type: http
+  seq: 3
+
+http:
+  method: PUT
+  url: http://localhost/web%20perusahaan%20(Salahudin%20Yusuf%20-%2024552011349%20-%20TIF%20RP24B%20CID)/api/informasi.php?id=9
+  params:
+    - name: id
+      value: "9"
+      type: query
+  body:
+    type: json
+    data: |-
+      {
+      "judul": "Ubah Judul Informasi 5",
+        "kategori": "Teknologi",
+        "tanggal": "18 November 2026",
+        "gambar": "https://images.unsplash.com/photo-1512941937669-90a1b58e7e9c?auto=format&fit=crop&w=800&q=80",
+        "ringkasan": "Lorem lorem lorem lagi",
+        "konten": "Lorem adalah lorem lorem lorem lorem lorem lorem lorem lorem"
+      }
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false

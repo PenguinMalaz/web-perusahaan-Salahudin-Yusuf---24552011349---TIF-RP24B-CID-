@@ -1,0 +1,20 @@
+info:
+  name: Delete Informasi
+  type: http
+  seq: 4
+
+http:
+  method: DELETE
+  url: http://localhost/web%20perusahaan%20(Salahudin%20Yusuf%20-%2024552011349%20-%20TIF%20RP24B%20CID)/api/informasi.php?id=9
+  params:
+    - name: id
+      value: "9"
+      type: query
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false

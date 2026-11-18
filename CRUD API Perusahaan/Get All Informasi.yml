@@ -1,0 +1,16 @@
+info:
+  name: Get All Informasi
+  type: http
+  seq: 1
+
+http:
+  method: GET
+  url: http://localhost/web%20perusahaan%20(Salahudin%20Yusuf%20-%2024552011349%20-%20TIF%20RP24B%20CID)/api/informasi.php
+  auth: inherit
+
+settings:
+  encodeUrl: true
+  timeout: 0
+  followRedirects: true
+  maxRedirects: 5
+  forwardAuthorizationHeader: false
